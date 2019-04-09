@@ -1,0 +1,659 @@
+/* Default styling for every page (helps normalize things cross browser) */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.dot
+{
+    border-bottom: 1px dotted white;
+    width: 100px;
+    display: block;
+    float: left;
+    height: 12px;
+    margin: 0 5px 0 5px;
+}
+
+ul.leaders
+{
+    float: left;
+    list-style: none;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+.left-rate
+{
+    float: left;
+}
+
+.right-rate
+{
+    float: right;
+}
+
+
+/*
+ul.leaders {
+    max-width: 40em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none}
+ul.leaders li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "}
+ul.leaders span:first-child {
+    padding-right: 0.33em;
+    }
+ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    }*/
+
+.blue-background
+{
+    background-color: #14264B;
+    color: white;
+}
+
+.blue-background a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.faq-ul
+{
+    list-style-type: none;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.faq-ul li
+{
+    margin-bottom: 15px;
+}
+
+.page-buttons
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-text
+{
+    padding: 0px 20px;
+}
+
+.page-button
+{
+    border: 1px solid white;
+    padding: 10px 0px;
+    width: 100%;
+    display: block;
+}
+
+.page-button:hover
+{
+    color: #D1D1D1;
+    border: 1px solid #D1D1D1;
+}
+
+.about-name
+{
+
+}
+
+.about-img
+{
+    max-width: 100%;
+}
+
+.about-intro
+{
+
+}
+
+.page-anchor
+{
+    display: block;
+    position: relative;
+    top: -106px;
+    visibility: hidden;
+}
+
+.page-img
+{
+    width: 100%;
+
+}
+
+.what-we-do
+{
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.card-container
+{
+    width: 100%;
+}
+
+.card
+{
+    max-width: 320px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+
+    color: white;
+}
+
+.card-color-layer
+{
+    background-color: rgba(208,0,29, 0.65);
+    padding: 10px 20px;
+}
+
+.four-point-card
+{
+    background-image: url('assets/img/4-point-inspections.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.full-home-card
+{
+    background-image: url('assets/img/full-home-inspections.png');
+}
+
+.wind-mitigation-card
+{
+    background-image: url('assets/img/wind-mitigation.png');
+}
+
+.card-header
+{
+    padding-top: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.what-we-do-headline
+{
+    color: #D0001D;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-content
+{
+    font-size: 13px;
+    margin: 15px auto;
+}
+
+/* Footer link wrapper (makes background red and pads the top/bottom) */
+
+.footer-links
+{
+    background-color: #D0001D;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* Styles the copyright in the footer */
+
+.copyright
+{
+    color: grey;
+    font-weight: 100;
+    line-height: 20px;
+    font-size: 0.8em;
+}
+
+/* Adds top and bottom padding (used for content blocks so that stuff doesn't vertically collide) */
+
+.content-padding
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Puts the facebook block over to the right */
+
+.facebook
+{
+    float: right;
+}
+
+/* Makes the facebook logo that size */
+
+.facebook-logo
+{
+    width: 30px;
+}
+
+/* Makes the footer links section play nice with the facebook logo and unstyled (styling needs to be done closer to the text) */
+
+.footer-links-ul
+{
+    display: inline-block;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    max-width: 80%;
+}
+
+/* Footer links styling */
+
+.footer-links a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    line-height: 30px;
+}
+
+/* Makes footer links change color on hover */
+
+.footer-links a:hover
+{
+    color: #D1D1D1;
+}
+
+/* Makes it so the facebook link is right aligned with stuff (the a part picks up a margin right from somewhere else) */
+
+.facebook a
+{
+    margin-right: 0px;
+}
+
+/* Makes the footer links be all in line  */
+
+.footer-links li
+{
+    display: inline-block;
+}
+
+h1
+{
+    font-weight: 100;
+    margin: 0;
+    font-size: 16px;
+}
+
+h2
+{
+    margin: 0;
+    font-size: 16px;
+}
+
+p
+{
+    margin: 0;
+    padding: 0px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.page-menu
+{
+    display: none;
+}
+
+.grey-background
+{
+    background-color: #F4F4F4;
+}
+
+.clean-list
+{
+    list-style-type: none;
+    padding: 0;
+    font-size: 12px;
+}
+
+.image-tag
+{
+    position: relative;
+}
+
+.site-button
+{
+    display: inline-block;
+    background-color: #D0001D;
+    color: white;
+    padding: 5px 10px;
+    border: 0;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+
+.site-button-white
+{
+    background-color: white;
+    color: #D0001D;
+    padding: 5px 10px;
+    border: 0;
+}
+
+.card-button
+{
+    text-decoration: none;
+    margin: 15px auto;
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+}
+
+.get-started
+{
+    float: right;
+    margin: 10px 15px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.get-started:hover
+{
+    color: #D1D1D1;
+}
+
+.intro-text
+{
+    max-width: 240px;
+}
+
+.image-tag .image
+{
+    min-height: 170px;
+}
+
+.internachi-white
+{
+    max-width: 160px;
+}
+
+.dark-text-over-image
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    color: #14264B;
+    width: 80%;
+    padding: 20px;
+}
+
+.secondary-dark-text-over-image
+{
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #14264B;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.image-tag .tag
+{
+    float: left;
+    position: absolute;
+    left: 5%;
+    margin: 0 auto;
+    max-width: 320px;
+    top: 5%;
+}
+
+.secondary-image-tag .tag
+{
+    float: left;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.blue-block
+{
+    background-color: #101B3A;
+    color: #EEE;
+    padding-bottom: 10px;
+}
+
+.why
+{
+
+}
+
+.pre-headline
+{
+    font-weight: 100;
+    font-size: 17px;
+}
+
+.headline
+{
+    font-weight: 900;
+    font-size: 17px;
+}
+
+/* Used to wrap content so that it doesn't expand past the maximum size of the design */
+
+.container
+{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.image-container
+{
+    max-height: 280px;
+    overflow: hidden;
+}
+
+.clear
+{
+    clear: both;
+}
+
+/* Used to clear after floated elements (floated elements within a container mess up height calculations - clear can fix this) */
+
+.header-padding
+{
+    height:107px;
+}
+
+/* Styles the call to action block */
+
+.cta
+{
+    width: 100%;
+    background-color: #D0001D;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+/* Used to show elements only on mobile */
+
+.mobile-only
+{
+    display: block;
+}
+
+/* Used to show elements only on desktkop */
+
+.desktop-only
+{
+    display: none;
+}
+
+/* Styling for call to action link text */
+
+.cta a
+{
+    color: white;
+    text-decoration: none;
+}
+
+/* Styling for the internachi logo in mobile */
+
+.internachi
+{
+    display: block;
+    margin: 0 auto;
+    max-width: 160px;
+    padding-top: 10px;
+}
+
+/* Fixes internachi logo being gigantic */
+
+.internachi-logo
+{
+    max-width: 100%;
+}
+
+/* Makes the text in the contact area in the footer bold */
+
+.contact
+{
+    font-weight: 900;
+}
+
+/* Makes the links in the contact area not bold and grey */
+
+.contact-link
+{
+    font-weight: 100;
+    color: grey;
+    text-decoration: none;
+}
+
+.contact-link:hover
+{
+    color: #D0001D;
+}
+
+/* header */
+
+.header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.header li a {
+    color: #14264B;
+  display: block;
+  text-decoration: none;
+  padding: 10px 0px;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  color: #D0001D;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  width: 235px;
+}
+
+.header .logo-img {
+    max-width: 100%;
+}
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 50px 0px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 35px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 10px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -10px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 360px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
